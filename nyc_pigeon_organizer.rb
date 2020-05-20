@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         if !result.has_key?(n)
           result[n] = {:color=>[], :gender=>[], :lives=>[]}
         end
-        result[n][]
+        result[n][attrib]
       end
     end 
   end
