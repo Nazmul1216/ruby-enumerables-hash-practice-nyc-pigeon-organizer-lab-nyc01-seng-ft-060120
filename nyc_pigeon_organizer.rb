@@ -1,8 +1,8 @@
 
 def nyc_pigeon_organizer(data)
   result = {}
-  data.each do|k, v|
-    v.each do|inner_key, names|
+  data.each do|attrib, v|
+    v.each do|attribval, names|
       names.each do |n|
         if !result.has_key?(n)
           p n
